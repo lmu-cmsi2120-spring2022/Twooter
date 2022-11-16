@@ -35,9 +35,20 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        Blog
-        {user && <button onClick={() => setWriting(true)}>New Article</button>}
-        {!user ? <SignIn /> : <SignOut />}
+        <div class="title">
+          Twooter
+          <img
+            src="https://www.clipartmax.com/png/middle/232-2323753_night-owl-logo-black-and-white-night-owl-clip-art.png"
+            class="image_owl"
+            alt="owl"
+          />
+        </div>
+        {user && (
+          <button class="articleButton" onClick={() => setWriting(true)}>
+            New Article
+          </button>
+        )}
+        <div class="user">{!user ? <SignIn /> : <SignOut />}</div>
       </header>
 
       {!user ? "" : <Nav articles={articles} setArticle={setArticle} />}
