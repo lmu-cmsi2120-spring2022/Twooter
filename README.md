@@ -1,7 +1,6 @@
-# A Blog Starter App
+Welcome to Twooter!
 
-This is a trivial blog app, started with create-react-app.
+Link to running project on Firebase: https://twooter-88835.web.app
+Creators: Caroline Ellis & Denali Tonn
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
-
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+Description: Twooter is a blog where users can sign in and post or read articles! These articles include a title, body, and when it was posted using JavaScript. This data is then stored in firebase. The beautiful design of different colors, images, fonts, and more are implemented using CSS. This is also where we implemented our marginas, gradients, shadows, and transitions.
